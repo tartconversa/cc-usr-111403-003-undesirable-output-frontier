@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "dimensions": {
+      "inputs": 1,
+      "good": 1,
+      "bad": 1
+    },
+    "direction": {
+      "inputs": [
+        0
+      ],
+      "good": [
+        1
+      ],
+      "bad": [
+        1
+      ]
+    }
+  },
+  "collections": {
+    "firms": [
+      {
+        "id": "a",
+        "revision": 1,
+        "inputs": [
+          2
+        ],
+        "good": [
+          3
+        ],
+        "bad": [
+          1
+        ]
+      },
+      {
+        "id": "b",
+        "revision": 1,
+        "inputs": [
+          3
+        ],
+        "good": [
+          4
+        ],
+        "bad": [
+          2
+        ]
+      }
+    ]
+  }
+}
