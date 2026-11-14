@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "frontier-sample-1",
+    "year_key": "year",
+    "units": {
+      "inputs": [
+        "万kWh",
+        "吨标煤"
+      ],
+      "good": [
+        "万元"
+      ],
+      "bad": [
+        "吨CO2"
+      ]
+    },
+    "dimensions": {
+      "inputs": 2,
+      "good": 1,
+      "bad": 1
+    },
+    "direction": {
+      "inputs": [
+        1,
+        1
+      ],
+      "good": [
+        1
+      ],
+      "bad": [
+        1
+      ]
+    }
+  },
+  "collections": {
+    "firms": [
+      {
+        "id": "lean",
+        "revision": 1,
+        "year": 2022,
+        "inputs": [
+          3,
+          1
+        ],
+        "good": [
+          4
+        ],
+        "bad": [
+          1
+        ]
+      },
+      {
+        "id": "big",
+        "revision": 1,
+        "year": 2022,
+        "inputs": [
+          6,
+          2
+        ],
+        "good": [
+          8
+        ],
+        "bad": [
+          2
+        ]
+      },
+      {
+        "id": "dirty",
+        "revision": 1,
+        "year": 2022,
+        "inputs": [
+          3,
+          1
+        ],
+        "good": [
+          4
+        ],
+        "bad": [
+          2
+        ]
+      },
+      {
+        "id": "clean",
+        "revision": 1,
+        "year": 2022,
+        "inputs": [
+          4,
+          2
+        ],
+        "good": [
+          4
+        ],
+        "bad": [
+          1
+        ]
+      },
+      {
+        "id": "top",
+        "revision": 1,
+        "year": 2022,
+        "inputs": [
+          2,
+          1
+        ],
+        "good": [
+          6
+        ],
+        "bad": [
+          1
+        ]
+      },
+      {
+        "id": "newer",
+        "revision": 1,
+        "year": 2023,
+        "inputs": [
+          2,
+          2
+        ],
+        "good": [
+          5
+        ],
+        "bad": [
+          1
+        ]
+      }
+    ]
+  }
+}
